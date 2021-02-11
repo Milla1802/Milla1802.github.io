@@ -1,0 +1,25 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: rgb(226, 186, 171);
+}
+
+
+.menu{
+    float: left;
+
+}
+
+.center{
+    margin-left: 50px;
+    text-align: center;
+}
+
+.center li {
+    list-style: none;
+    margin-left: -40px;
+}
+
+.center img{
+    border-radius: 10px;
+}
