@@ -2,12 +2,17 @@ body{
     margin:0;
     padding: 0;
     background-color: rgb(226, 186, 171);
+    color:rgb(37, 60, 83);
 }
-
 
 .menu{
     float: left;
 
+}
+.menu a{
+    text-decoration: none;
+    color:rgb(37, 60, 83);
+    font-weight: bold;
 }
 
 .center{
@@ -15,11 +20,28 @@ body{
     text-align: center;
 }
 
+.center h1{
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(37, 60, 83);
+}
+
+.center ul{
+    margin-right: 50px;
+}
 .center li {
     list-style: none;
-    margin-left: -40px;
+    margin: 20px;
+}
+
+#quemSou{
+    font-style: oblique;
 }
 
 .center img{
     border-radius: 10px;
+}
+
+h3{
+    color: darkslategray;
 }
